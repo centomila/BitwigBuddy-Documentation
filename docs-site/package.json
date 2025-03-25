@@ -1,0 +1,22 @@
+{
+  "name": "project-docs",
+  "version": "1.0.0",
+  "description": "Documentation for my project",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "documentation",
+    "vitepress",
+    "markdown"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.44",
+    "vue": "^3.3.4"
+  }
+}
