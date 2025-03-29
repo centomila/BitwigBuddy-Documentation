@@ -1,34 +1,51 @@
 # Macro Mode
 
-Macro Mode allows you to create and execute sequences of actions to automate repetitive tasks in Bitwig Studio, dramatically improving your workflow efficiency.
+Macro Mode allows you to automate sequences of actions in Bitwig Studio, combining both native Bitwig commands and BitwigBuddy's custom functions.
 
-## 🎼 What is a Macro?
+![Macro Mode Panel](../../../Images/Macro1.png)
 
-Macros in BitwigBuddy automate sequences of native Bitwig actions combined with custom commands, streamlining complex or repetitive tasks. Bitwig Actions correspond almost entirely to the list of Bitwig keyboard shortcut commands, including those that aren't mapped to keyboard shortcuts by default.
+## What is a Macro?
 
-## Macro Panels
+Macros in BitwigBuddy automate sequences of native Bitwig actions combined with custom commands, streamlining complex or repetitive tasks. Bitwig Actions correspond almost entirely to the list of Bitwig keyboard shortcut commands, including the not mapped ones.
 
-BitwigBuddy provides different ways to organize and access your macros:
+## User Interface
 
-### Macro 1-4 Panel
+### Macro Panels
 
-![Macro Panel](../../../Images/Macro1.png)
+#### Macro Slots (1-4)
 
-- **Show Slots:** Change slot view, switch to Instant Macro mode or hybrid mode
-- **Select Macro:** Choose macro sequences to execute from the dropdown menu
-- **Open Macro File:** Open the selected macro file in your default text editor
-  - You can edit your file and save it to apply changes. No need to restart BitwigBuddy.
-- **Macro Description:** Displays the description of the selected macro
-- **Macro Author:** Displays the author of the selected macro
-- **Execute Macro:** Runs the selected macro
-- **Stop All Macros:** Stops the execution of all running macros
+Macros stored in the `BitwigBuddy/Macros` folder:
 
-### Instant Macro Panel
+- **Show Slots**: Change slot view, switch to Instant Macro mode or hybrid mode
+- **Select Macro**: Choose a macro sequence to execute
+- **Open Macro File**: Open the selected macro file in your default text editor
+  - You can edit your file and save it to apply changes without restarting BitwigBuddy
+- **Macro Description**: Shows the description of the selected macro
+- **Macro Author**: Shows the author of the selected macro
+- **Execute Macro**: Run the selected macro
+- **Stop All Macros**: Stop the execution of all running macros
 
-- **Instant Macro:** Define up to 8 quick-execute actions for immediate access
-- Use this for your most common operations that don't require complex sequences
+#### Instant Macro Mode
 
-## Macro File Structure
+Define up to 8 quick-execute actions:
+
+- **Instant Macro Field**: Enter custom commands for quick execution
+- **Action Buttons 1-8**: Execute corresponding instant macro command
+- **Save Instant Macros**: Store your current instant macro setup
+- **Load Instant Macros**: Recall previously saved instant macro configurations
+
+### Panel Modes
+
+BitwigBuddy Panel offers different viewing modes:
+
+- **Standard Mode**: Shows all four macro slots with full information
+- **Compact Mode**: Displays reduced information for each slot to save screen space
+- **Hybrid Mode**: Combines instant macros with regular macro slots
+- **Instant Only**: Shows just the instant macro interface for maximum simplicity
+
+## Creating Macros
+
+### Macro File Structure
 
 Macros are stored as `.txt` files in the `BitwigBuddy/Macros` folder. You can organize them into subfolders for better management.
 

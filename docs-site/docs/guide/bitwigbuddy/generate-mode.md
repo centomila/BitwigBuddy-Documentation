@@ -1,100 +1,110 @@
 # Generate Mode
 
-Generate Mode is the core feature of BitwigBuddy, allowing you to create drum patterns quickly and efficiently.
-
-## Overview
-
-Generate Mode provides two approaches for pattern creation:
-
-1. **Preset Mode**: Select from predefined rhythmic and melodic patterns
-2. **Program Mode**: Create semi-random patterns with customizable parameters
+Generate Mode is the heart of BitwigBuddy, allowing you to quickly create drum patterns, rhythmic sequences, and musical phrases.
 
 ![Generate Mode Panel](../../../GenerateEditMacro.png)
 
+## Mode Selection
+
+First, ensure Generate Mode is selected from the mode selector at the top of the panel.
+
 ## Common Controls
 
-These controls apply to both Preset and Program modes:
+These controls are available in both Preset and Program modes:
 
-- **Generate/Edit/Macro Mode:** Set this to "Generate" to create patterns.
-- **Destination:**
-  - **Launcher:** Generated pattern is placed in the Clip Launcher view.
-  - **Arranger:** Generated pattern is placed on the arranger timeline.
-- **Replace/Add Pattern:**
-  - **Replace:** Overwrites existing notes completely.
-  - **Add:** Adds generated pattern to existing notes.
-- **Reverse Pattern:**
-  - **Normal:** Plays pattern as saved.
-  - **Reverse:** Plays pattern in reverse order.
-- **Repeat Pattern X Times:**
-  - Repeat the pattern X times (1 to 8 times)
-  - Default: 1
-  - Example: If a pattern is 16 steps and you set Repeat Pattern to 2, the pattern will be 32 steps long.
-  - Note: Max 128 steps! If the pattern is longer than 128 steps, the pattern will be truncated to 128 steps.
+### Destination
+- **Launcher**: Generated pattern is placed in the Clip Launcher view
+- **Arranger**: Generated pattern is placed on the arranger timeline
 
-## 1️⃣ Preset Mode
+### Replace/Add Pattern
+- **Replace**: Overwrites existing notes completely
+- **Add**: Adds generated pattern to existing notes (great for layering)
 
-Preset Mode gives you access to numerous predefined rhythmic and melodic patterns for quick pattern generation.
+### Reverse Pattern
+- **Normal**: Plays pattern as saved
+- **Reverse**: Plays pattern in reverse order for creative variations
 
-### Preset Mode Controls
+### Repeat Pattern X Times
+- Repeat the pattern X times (1 to 8 times)
+- Default: 1
+- Example: If a pattern is 16 steps and you set Repeat Pattern to 2, the pattern will be 32 steps long
+- Max 128 steps! If the pattern is longer than 128 steps, it will be truncated
 
-- **Preset/Program:** Set this to "Preset" to select from predefined patterns.
-- **Preset Selector:** Choose from a variety of built-in patterns or your custom presets.
-- **Step Size:** Rhythmic value of each step.
-- **Subdivisions:** Rhythm subdivisions (Straight, Triplets, Quintuplets, Septuplets).
-- **Note Length:** Length of each generated note.
-- **Note Channel:** MIDI channel for generated notes.
-- **Note Destination:** Select the note pitch for your pattern (e.g., "C1" for kick drum).
+## Preset Mode
 
-### Post-Actions
+Preset Mode uses predefined pattern templates from the unified preset system introduced in version 1.0.0.
 
-BitwigBuddy offers several actions that can be performed automatically after generating a pattern:
+### Selecting Presets
+1. Choose "Preset" from the Pattern Type selector
+2. Browse through the preset list to select a pattern (includes both built-in and custom presets)
+3. The pattern's step data will be displayed in the UI
 
-- **Duplicate Clip**: Creates a copy of the generated pattern (Clip Launcher mode only)
+### Note Destination
+- Set the MIDI note or drum pad for the pattern
+- Use the Note selector to choose the note and octave
+- Or use "Learn Note" to capture a played note:
+  - Select "LN" to learn from any played note
+  - Select "DM" to learn from clicked drum pads
+
+### Step Size & Length
+- **Step Size**: Sets the rhythmic grid for the pattern
+- **Subdivisions**: Choose Straight, Triplets, Quintuplets, or Septuplets
+- **Note Length**: Sets the duration of each generated note
+
+## Program Mode
+
+Program Mode gives you control over semi-random pattern generation.
+
+### Controls
+- **Steps**: Shows the generated step sequence
+- **Velocity Range**:
+  - **Min Velocity**: Minimum note velocity (1-127)
+  - **Max Velocity**: Maximum note velocity (1-127)
+- **Velocity Shape**: Distribution method (Random, Linear, Arc, Sine, etc.)
+- **Density**: Frequency of notes occurrence (0% to 100%)
+- **Step Quantity**: Number of generated steps (1-128)
+- **Skip Step Every X**: Skip steps systematically:
+  - Example: Density 100%, Skip Step Every X at 1 → Skips all odd-numbered steps
+  - Example: Density 100%, Skip Step Every X at 2 → Skips all even steps
+  - Example: Density 100%, Skip Step Every X at 3 → Skips every third step
+
+### Velocity Shapes
+BitwigBuddy offers a wide variety of velocity shapes:
+
+- **Random**: Completely random velocities
+- **Flat**: All notes have the same velocity (Min Velocity value)
+- **Linear Inc/Dec**: Linear increase/decrease from Min to Max or Max to Min
+- **Ease Curves**: Various easing functions for natural-feeling dynamics
+- **Alternating**: Alternates between Min and Max velocities
+- **Wave Forms**: Sine, Cosine, Triangle, Square, Saw patterns
+
+## Post Actions
+
+After generating a pattern, you can trigger additional actions:
+
+- **Duplicate Clip**: Creates a copy of the generated clip (Clip Launcher only)
 - **Launch Clip**: Automatically plays the newly generated clip
-- **Switch to Edit View Layout**: Changes the Bitwig interface to the Edit View after generation
+- **Switch to Edit View Layout**: Changes Bitwig interface to Edit View after generation
 - **Zoom To Fit**: Automatically zooms to show the entire pattern
 
-## 🎲 Program Mode
+## Custom Preset Creation
 
-Program Mode allows for semi-random pattern generation with fine control over various parameters.
+You can save your patterns as presets that will appear alongside the built-in ones:
 
-### Program Mode Controls
-
-- **Pattern Type:** Select "Program" for semi-random patterns.
-- **Steps:** Shows the generated step sequence as values.
-- **Velocity Range:**
-  - **Min Velocity:** Minimum note velocity (1-127).
-  - **Max Velocity:** Maximum note velocity (1-127).
-- **Velocity Shape:** Choose from numerous distribution methods:
-  - Random
-  - Flat (Value by Min Velocity)
-  - Linear Inc/Dec
-  - Ease Out/In Cubic Inc/Dec
-  - Ease InOut Inc/Dec
-  - Arc
-  - Sine, Cosine, Double Cosine
-  - Alternating patterns
-  - Saw, Triangle, Square variations
-- **Density:** Frequency of notes occurrence (0% to 100%).
-- **Step Quantity:** Number of generated steps (1-128).
-- **Skip Step Every X:** Skip steps systematically:
-  - Example: Density 100%, Skip Step at 1 → Skips all odd-numbered steps.
-  - Example: Density 100%, Skip Step at 2 → skips every third step, focusing on positions 1, 2, 4, 5, etc.
-
-### Save Custom Presets
-
-You can save both Preset and Program patterns as custom presets:
-
-1. Configure your pattern parameters
-2. Click the "Save Custom Preset" button
+1. Create a pattern you like
+2. Click "Save Custom Pattern"
 3. Enter a name for your preset
-4. The preset will be saved as a .txt file in the BitwigBuddy/Custom Presets folder
-5. Your custom preset will appear in the preset selector
+4. The preset will be saved as a .txt file in the Custom Presets folder
 
-## Tips & Techniques
+For more details on the preset system, see the [Presets System](/guide/bitwigbuddy/custom-presets) page.
 
-- **Quick Inspiration**: Rapidly browse presets to find a starting point for your drum patterns
-- **Pattern Variation**: Use the "Reverse Pattern" option to create variations of existing patterns
-- **Layered Patterns**: Use "Add Pattern" mode to layer different patterns on the same note
-- **Pattern Evolution**: Set a low density in Program Mode and duplicate the clip several times, with each one having slight variations
-- **Learn Note from Drum Pads**: Select "DM" from the Learn Note selection and click on a drum pad to set the note destination
+## Tips & Ideas
+
+- Rapidly browse presets for quick inspiration
+- Reverse patterns for creative rhythmic results
+- Use "Add Pattern" with low density to create variations
+- Try different velocity shapes to enhance groove
+- Use Skip Step creatively for unique rhythmic variations
+- Save generated patterns as custom presets for reuse
+- Combine multiple patterns by using "Add Pattern" repeatedly
+- Learn notes directly from drum pads for efficient workflow

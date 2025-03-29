@@ -1,25 +1,25 @@
-# Custom Presets
+# Presets System
 
-BitwigBuddy allows you to create and save your own pattern presets for reuse across projects. This guide explains how to create, manage, and use custom presets.
+As of version 1.0.0, BitwigBuddy features a unified preset system. All presets - both built-in and custom - use the same format and are stored as text files.
 
 ## Overview
 
-Custom presets in BitwigBuddy are stored as simple text files in the `BitwigBuddy/Custom Presets` folder. These files contain the pattern data, default note values, and other information needed to recreate your patterns.
+All presets in BitwigBuddy are stored as simple text files. The built-in presets are located in the `BitwigBuddy/Presets` folder, while your custom presets go in the `BitwigBuddy/Custom Presets` folder. Both use the identical format, making it easy to create, modify, and share patterns.
 
-## Creating Custom Presets
+## Creating Presets
 
-There are two ways to create custom presets:
+You can create your own presets in two ways:
 
 ### Method 1: Save from Generate Mode
 
-1. Configure a pattern in Generate Mode (using either Preset or Program mode)
-2. Click the "Save Custom Preset" button
+1. In Generate Mode (either Preset or Program), create a pattern you like
+2. Click the "Save Custom Pattern" button
 3. Enter a name for your preset
-4. Your pattern is saved as a `.txt` file in the BitwigBuddy/Custom Presets folder
+4. The preset will be saved as a .txt file in the Custom Presets folder
 
-### Method 2: Create a Text File Manually
+### Method 2: Create Text Files Manually
 
-You can create custom preset files directly in a text editor. The preset format follows this syntax:
+Create a text file in the `BitwigBuddy/Custom Presets` folder with the following format:
 
 ```
 # Custom Preset Example
@@ -57,44 +57,44 @@ Subdivisions: Straight
 Note Length: 1/16
 ```
 
-## Managing Custom Presets
+## Managing Presets
 
 ### Folder Location
 
-Custom presets are stored in the `BitwigBuddy/Custom Presets` folder within your Bitwig Studio Extensions directory:
-- **Windows:** `%USERPROFILE%\Documents\Bitwig Studio\Extensions\BitwigBuddy\Custom Presets`
-- **macOS:** `~/Documents/Bitwig Studio/Extensions/BitwigBuddy/Custom Presets`
-- **Linux:** `~/Bitwig Studio/Extensions/BitwigBuddy/Custom Presets`
+Built-in presets are stored in the `BitwigBuddy/Presets` folder, and custom presets are stored in the `BitwigBuddy/Custom Presets` folder within your Bitwig Studio Extensions directory:
+- **Windows:** `%USERPROFILE%\Documents\Bitwig Studio\Extensions\BitwigBuddy\Presets` and `%USERPROFILE%\Documents\Bitwig Studio\Extensions\BitwigBuddy\Custom Presets`
+- **macOS:** `~/Documents/Bitwig Studio/Extensions/BitwigBuddy/Presets` and `~/Documents/Bitwig Studio/Extensions/BitwigBuddy/Custom Presets`
+- **Linux:** `~/Bitwig Studio/Extensions/BitwigBuddy/Presets` and `~/Bitwig Studio/Extensions/BitwigBuddy/Custom Presets`
 
 ### Refreshing the Preset List
 
-If you add, remove, or modify custom preset files while BitwigBuddy is running:
-1. Click the "Refresh Custom Presets" button in BitwigBuddy
-2. The extension will reload with your updated custom preset list
+If you add, remove, or modify preset files while BitwigBuddy is running:
+1. Click the "Refresh Presets" button in BitwigBuddy
+2. The extension will reload with your updated preset list
 
-## Using Custom Presets
+## Using Presets
 
-Once created, custom presets appear in the preset selector dropdown along with the built-in presets:
+Once created, presets appear in the preset selector dropdown:
 
 1. Select "Preset" in the Pattern Type selector
 2. Click the dropdown menu to see all available presets
 3. Your custom presets will be listed alongside the built-in patterns
-4. Select a custom preset to load its pattern data
+4. Select a preset to load its pattern data
 
 ## Converting Program Mode Patterns to Presets
 
-You can save patterns created in Program Mode as custom presets:
+You can save patterns created in Program Mode as presets:
 
 1. Configure your pattern in Program Mode
 2. The generated step values appear in the Steps field
 3. Click "Save Custom Preset" 
 4. Enter a name for your preset
-5. The pattern is saved as a custom preset that you can recall later
+5. The pattern is saved as a preset that you can recall later
 
-## Tips for Working with Custom Presets
+## Tips for Working with Presets
 
 - Create variations of the same pattern with different velocity shapes or densities
 - Organize your presets with descriptive names (e.g., "Kick - Four on the Floor", "Hihat - Offbeat")
-- Back up your custom presets folder periodically
-- Share your custom presets with the BitwigBuddy community
+- Back up your presets folder periodically
+- Share your presets with the BitwigBuddy community
 - Experiment with different DefaultNote settings for quick switching between drum elements

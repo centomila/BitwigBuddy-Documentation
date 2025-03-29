@@ -1,15 +1,15 @@
-# BitwigBuddy Installation Guide
+# Installation Guide
 
-This guide will help you install BitwigBuddy properly on your system.
+Getting BitwigBuddy up and running is quick and easy.
 
 ## System Requirements
 
 - Bitwig Studio (latest version recommended)
 - Windows, macOS, or Linux operating system
 
-## Installation Steps
+## ⚙️ Installation Steps
 
-1. ⬇️ Download **_BitwigBuddy-0.9.8-beta.zip_** from the [Release page](https://github.com/centomila/BeatBuddy-Bitwig-Extension-MIDI-Drum-Generator/releases)
+1. ⬇️ Download **_BitwigBuddy-1.0.0.zip_** from the [Release page](https://github.com/centomila/BeatBuddy-Bitwig-Extension-MIDI-Drum-Generator/releases)
 
 2. 📂 Extract the zip to the **_/Bitwig Studio/Extensions/_** folder. Be sure to extract the BitwigBuddy subfolder as well. It contains sample custom presets as txt files.
 
@@ -20,23 +20,29 @@ This guide will help you install BitwigBuddy properly on your system.
 
 3. 🟧 In Bitwig, go to **Settings > Controller > Add Extension > Centomila > BitwigBuddy**
 
+4. 🎉 BitwigBuddy should now appear in the Bitwig Studio Controller section
+
 ## Verifying Installation
 
 After installation:
 
-1. Open Bitwig Studio
-2. Navigate to the Settings menu
-3. Go to Controllers section
-4. You should see BitwigBuddy listed among the active controllers
-5. The BitwigBuddy panel should be accessible within Bitwig Studio
+1. A BitwigBuddy panel should be available in Bitwig Studio
+2. You'll see the Generate/Edit/Macro mode selector
+3. The preset browser should display all available patterns
 
-## Troubleshooting
+If you don't see the panel, try these troubleshooting steps:
 
-If you encounter any issues during installation:
+- Make sure you've completely extracted the zip file
+- Check that the files are in the correct Extensions directory
+- Restart Bitwig Studio
+- Check the controller setup in Bitwig's settings
 
-- Make sure you've extracted the entire BitwigBuddy folder, not just individual files
-- Check that you're using a compatible version of Bitwig Studio
-- Verify that the extension files are in the correct location
-- Restart Bitwig Studio after installation
+## Folder Structure
 
-For additional help, please check the [GitHub repository](https://github.com/centomila/BeatBuddy-Bitwig-Extension-MIDI-Drum-Generator) or contact the developer.
+BitwigBuddy uses several folders for different purposes:
+
+- **Custom Presets**: Store your own pattern presets as .txt files
+- **Macros**: Contains macro script files
+- **Presets**: Built-in pattern presets
+
+All these folders are located within the BitwigBuddy folder in your Extensions directory.
