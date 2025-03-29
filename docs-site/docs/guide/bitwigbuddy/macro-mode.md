@@ -2,7 +2,7 @@
 
 Macro Mode allows you to automate sequences of actions in Bitwig Studio, combining both native Bitwig commands and BitwigBuddy's custom functions.
 
-![Macro Mode Panel](../../../Images/Macro1.png)
+![Macro Mode Panel](../../../images/Macro-Mode.png)
 
 ## What is a Macro?
 
@@ -25,6 +25,9 @@ Macros stored in the `BitwigBuddy/Macros` folder:
 - **Execute Macro**: Run the selected macro
 - **Stop All Macros**: Stop the execution of all running macros
 
+![Macro Show Slot Compact](../../../images/Macro-Show-Slot-Compact.png)
+![Macro Show Slot All](../../../images/Macro-Show-Slot-All.png)
+
 #### Instant Macro Mode
 
 Define up to 8 quick-execute actions:
@@ -33,6 +36,8 @@ Define up to 8 quick-execute actions:
 - **Action Buttons 1-8**: Execute corresponding instant macro command
 - **Save Instant Macros**: Store your current instant macro setup
 - **Load Instant Macros**: Recall previously saved instant macro configurations
+
+![Macro Instant Macro](../../../images/Macro-Instant-Macro.png)
 
 ### Panel Modes
 

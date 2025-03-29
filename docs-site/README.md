@@ -1,6 +1,6 @@
 # Project Documentation Site
 
-This repository contains the documentation for our project, built with VitePress.
+This repository contains the documentation for BitwigBuddy. The documentation website is built with VitePress.
 
 ## Development
 

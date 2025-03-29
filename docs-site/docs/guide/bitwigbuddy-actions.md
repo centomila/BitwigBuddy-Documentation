@@ -78,3 +78,5 @@ BitwigBuddy provides specialized actions to control Bitwig Studio. These actions
 | **BB Toggle Launcher Arranger Mode** | Toggles BitwigBuddy between Launcher and Arranger modes | _BB Toggle Launcher Arranger Mode_     |
 | **BB Preset**                        | Select a BitwigBuddy Preset                             | _BB Preset ("Kick Four on the Floor")_ |
 | **BB Generate**                      | Press the BitwigBuddy Generate Preset Button            | _BB Generate_                          |
+
+![Move Rotate Steps](../../../images/Move-Rotate-Steps.png)

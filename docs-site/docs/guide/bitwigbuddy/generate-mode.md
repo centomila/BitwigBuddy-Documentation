@@ -2,11 +2,13 @@
 
 Generate Mode is the heart of BitwigBuddy, allowing you to quickly create drum patterns, rhythmic sequences, and musical phrases.
 
-![Generate Mode Panel](../../../GenerateEditMacro.png)
+![Generate Mode Panel](../../../images/Generate-Page.png)
 
 ## Mode Selection
 
 First, ensure Generate Mode is selected from the mode selector at the top of the panel.
+
+![Generate/Edit Mode Selector](../../../images/Mode-Selector.png)
 
 ## Common Controls
 
@@ -46,10 +48,14 @@ Preset Mode uses predefined pattern templates from the unified preset system int
   - Select "LN" to learn from any played note
   - Select "DM" to learn from clicked drum pads
 
+![Note Destination](../../../images/Note-Destination.png)
+
 ### Step Size & Length
 - **Step Size**: Sets the rhythmic grid for the pattern
 - **Subdivisions**: Choose Straight, Triplets, Quintuplets, or Septuplets
 - **Note Length**: Sets the duration of each generated note
+
+![Step Size and Note Length](../../../images/Step-Size-Note-Length.png)
 
 ## Program Mode
 
@@ -81,6 +87,8 @@ BitwigBuddy offers a wide variety of velocity shapes:
 ## Post Actions
 
 After generating a pattern, you can trigger additional actions:
+
+![Post Actions](../../../images/Post-Actions.png)
 
 - **Duplicate Clip**: Creates a copy of the generated clip (Clip Launcher only)
 - **Launch Clip**: Automatically plays the newly generated clip

@@ -98,3 +98,5 @@ You can save patterns created in Program Mode as presets:
 - Back up your presets folder periodically
 - Share your presets with the BitwigBuddy community
 - Experiment with different DefaultNote settings for quick switching between drum elements
+
+![Settings From Preset/Custom](../../../images/Settings-From-Preset-Custom.png)
