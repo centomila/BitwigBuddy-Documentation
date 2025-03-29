@@ -1,14 +1,17 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Bitwig Documentation',
-  description: 'Comprehensive documentation for Bitwig Studio and BitwigBuddy',
+  title: 'BitwigBuddy Documentation',
+  description: 'Comprehensive documentation for BitwigBuddy and Bitwig Studio',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'BitwigBuddy Actions', link: '/guide/bitwigbuddy-actions' },
-      { text: 'Bitwig Actions', link: '/guide/bitwig-actions' }
+      { text: 'Installation', link: '/guide/bitwigbuddy/installation' },
+      { text: 'BitwigBuddy', link: '/guide/bitwigbuddy/' },
+      { text: 'Macro Actions', link: '/guide/bitwigbuddy-actions' },
+      { text: 'Bitwig Actions', link: '/guide/bitwig-actions' },
+      { text: 'Changelog', link: '/guide/changelog' }
     ],
     sidebar: {
       '/guide/': [
@@ -21,11 +24,31 @@ export default defineConfig({
         {
           text: 'BitwigBuddy',
           items: [
-            { text: 'BitwigBuddy Actions', link: '/guide/bitwigbuddy-actions' }
+            { text: 'Introduction', link: '/guide/bitwigbuddy/' },
+            { text: 'Installation', link: '/guide/bitwigbuddy/installation' },
+            { text: 'Generate Mode', link: '/guide/bitwigbuddy/generate-mode' },
+            { text: 'Edit Mode', link: '/guide/bitwigbuddy/edit-mode' },
+            { text: 'Macro Mode', link: '/guide/bitwigbuddy/macro-mode' },
+            { text: 'Custom Presets', link: '/guide/bitwigbuddy/custom-presets' },
+            { text: 'Support', link: '/guide/bitwigbuddy/support' }
+          ]
+        },
+        {
+          text: 'Actions Reference',
+          items: [
+            { text: 'BitwigBuddy Actions', link: '/guide/bitwigbuddy-actions' },
+            { text: 'Bitwig Actions', link: '/guide/bitwig-actions' },
+          ]
+        },
+        {
+          text: 'Reference',
+          items: [
+            { text: 'Changelog', link: '/guide/changelog' }
           ]
         },
         {
           text: 'Bitwig Actions',
+          collapsed: true,
           items: [
             { text: 'Overview', link: '/guide/bitwig-actions' },
             { text: 'Editing', link: '/guide/bitwig-actions/editing' },
@@ -55,7 +78,10 @@ export default defineConfig({
     },
     footer: {
       message: 'Documentation built with VitePress',
-      copyright: '© 2023 Bitwig Documentation'
-    }
+      copyright: '© 2025 BitwigBuddy Documentation'
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/centomila/BeatBuddy-Bitwig-Extension-MIDI-Drum-Generator' }
+    ]
   }
 })

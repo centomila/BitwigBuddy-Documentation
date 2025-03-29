@@ -1,25 +1,35 @@
-# Bitwig Integration Documentation
+# BitwigBuddy Documentation
 
-Welcome to the comprehensive documentation for Bitwig Studio integration. This guide provides detailed information about available actions and commands for controlling Bitwig through various interfaces and macros.
+Welcome to the comprehensive documentation for BitwigBuddy, a powerful extension for Bitwig Studio designed to simplify and accelerate your music production workflow.
 
-## Overview
+## What is BitwigBuddy?
 
-Bitwig Studio is a powerful digital audio workstation (DAW) with extensive automation and control capabilities. This documentation covers:
+BitwigBuddy is a comprehensive extension for Bitwig Studio designed to simplify and accelerate your music production workflow. It enables efficient creation, editing, and automation of MIDI patterns, drum sequences, and complex macros. Perfect for streamlining tasks and boosting creativity!
 
-- **BitwigBuddy Actions**: Special macro actions for controlling Bitwig through BitwigBuddy
-- **Bitwig Embedded Actions**: Native actions available within Bitwig Studio
+## Key Features
+
+BitwigBuddy offers three main modes of operation:
+
+### 1. Generate Mode
+Create drum patterns using predefined presets or semi-random patterns with customizable parameters.
+
+### 2. Edit Mode
+Modify velocities and other properties of existing MIDI patterns to add human feel and variation.
+
+### 3. Macro Mode
+Automate sequences of native Bitwig actions combined with custom commands to streamline complex or repetitive tasks.
 
 ## Quick Navigation
 
-- [BitwigBuddy Actions](/guide/bitwigbuddy-actions) - Control Bitwig with specialized BitwigBuddy commands
-- [Bitwig Embedded Actions](/guide/bitwig-actions) - Use Bitwig's native action system
+- [Installation Guide](/guide/bitwigbuddy/installation) - Get started with BitwigBuddy
+- [Generate Mode](/guide/bitwigbuddy/generate-mode) - Learn about pattern generation
+- [Edit Mode](/guide/bitwigbuddy/edit-mode) - Discover pattern editing features
+- [Macro Mode](/guide/bitwigbuddy/macro-mode) - Master automation with macros
+- [BitwigBuddy Actions](/guide/bitwigbuddy-actions) - Reference all BitwigBuddy-specific commands
+- [Bitwig Embedded Actions](/guide/bitwig-actions) - Explore Bitwig's native action system
 
-## Getting Started
+## Version Information
 
-To effectively use these actions, you'll need:
+Current version: v0.9.8 beta
 
-1. Bitwig Studio installed and configured
-2. Familiarity with Bitwig's interface and workflow
-3. Understanding of how actions are triggered in your environment
-
-Choose a section from the navigation to explore available commands and their parameters.
+Check the [Changelog](/guide/changelog) for details about the latest updates and upcoming features.
