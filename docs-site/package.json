@@ -1,12 +1,14 @@
 {
-  "name": "project-docs",
+  "name": "bitwig-documentation",
   "version": "1.0.0",
-  "description": "Documentation for my project",
+  "description": "Comprehensive documentation for Bitwig Studio and BitwigBuddy",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:serve": "vitepress serve docs"
   },
   "keywords": [
     "documentation",
@@ -15,8 +17,10 @@
   ],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  },
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.44",
     "vue": "^3.3.4"
   }
 }

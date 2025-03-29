@@ -1,36 +1,25 @@
-# Getting Started
+# Bitwig Integration Documentation
 
-Welcome to the getting started guide for our project. This page will walk you through the basics of setting up and using our project.
+Welcome to the comprehensive documentation for Bitwig Studio integration. This guide provides detailed information about available actions and commands for controlling Bitwig through various interfaces and macros.
 
-## Prerequisites
+## Overview
 
-Before you begin, make sure you have the following installed:
+Bitwig Studio is a powerful digital audio workstation (DAW) with extensive automation and control capabilities. This documentation covers:
 
-- Node.js (v14 or newer)
-- npm or yarn
+- **BitwigBuddy Actions**: Special macro actions for controlling Bitwig through BitwigBuddy
+- **Bitwig Embedded Actions**: Native actions available within Bitwig Studio
 
-## Quick Start
+## Quick Navigation
 
-The fastest way to get started is to use our CLI tool:
+- [BitwigBuddy Actions](/guide/bitwigbuddy-actions) - Control Bitwig with specialized BitwigBuddy commands
+- [Bitwig Embedded Actions](/guide/bitwig-actions) - Use Bitwig's native action system
 
-```bash
-# Install the CLI tool
-npm install -g our-project-cli
+## Getting Started
 
-# Create a new project
-our-project create my-awesome-app
+To effectively use these actions, you'll need:
 
-# Navigate to the new project
-cd my-awesome-app
+1. Bitwig Studio installed and configured
+2. Familiarity with Bitwig's interface and workflow
+3. Understanding of how actions are triggered in your environment
 
-# Start the development server
-npm run dev
-```
-
-After running these commands, you'll have a basic project running at `http://localhost:3000`.
-
-## What's Next?
-
-- Check out the [Installation guide](/guide/installation) for detailed installation instructions
-- Learn about [Configuration options](/guide/configuration)
-- Explore [Advanced features](/guide/advanced)
+Choose a section from the navigation to explore available commands and their parameters.

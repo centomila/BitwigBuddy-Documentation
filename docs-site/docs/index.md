@@ -1,36 +1,30 @@
 ---
 layout: home
-
 hero:
-  name: Project Documentation
-  text: Clear, concise, and comprehensive docs.
-  tagline: Everything you need to know about using our project
-  image:
-    src: /hero.png
-    alt: Project logo
+  name: Bitwig Documentation
+  text: Complete reference for Bitwig Studio and BitwigBuddy
+  tagline: Comprehensive documentation of actions and commands
   actions:
     - theme: brand
       text: Get Started
       link: /guide/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/yourusername/yourproject
+      text: BitwigBuddy Actions
+      link: /guide/bitwigbuddy-actions
+    - theme: alt
+      text: Bitwig Actions
+      link: /guide/bitwig-actions
 
 features:
-  - icon: 🚀
-    title: Easy to Use
-    details: Simple installation process with minimal dependencies
-  - icon: 🛠️
-    title: Customizable
-    details: Highly configurable to meet your specific needs
+  - icon: 🎛️
+    title: BitwigBuddy Actions
+    details: Specialized actions for controlling Bitwig through the BitwigBuddy interface
+    link: /guide/bitwigbuddy-actions
+  - icon: 🎹
+    title: Bitwig Embedded Actions
+    details: Native actions available within Bitwig Studio for comprehensive control
+    link: /guide/bitwig-actions
   - icon: 📚
-    title: Comprehensive
-    details: Detailed documentation covering all aspects of the project
-  - icon: 🤝
-    title: Community Support
-    details: Active community and maintainers to help you succeed
+    title: Complete Reference
+    details: Detailed documentation of all available commands and parameters
 ---
-
-# Welcome to the Documentation
-
-This documentation will help you get started with our project, configure it for your needs, and learn about advanced features.
