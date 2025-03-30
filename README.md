@@ -36,3 +36,8 @@ The built files will be in `docs/.vitepress/dist` and can be deployed to any sta
 ## License
 
 MIT
+
+
+## Status Badge
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ffc0b404-c6a6-44fc-a3de-8b7cab942407/deploy-status)](https://app.netlify.com/sites/bitwigbuddy/deploys)
