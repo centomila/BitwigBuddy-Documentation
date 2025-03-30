@@ -5,7 +5,7 @@ hero:
   text: Companion Extension for Bitwig Studio
   tagline: Simplify your music production workflow with efficient pattern creation and macro automation
   image:
-    src: /images/BeatBuddy Logo Square.png
+    src: /images/Home-Page.png
     alt: BitwigBuddy Logo Square
   actions:
     - theme: brand
