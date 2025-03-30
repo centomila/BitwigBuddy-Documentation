@@ -4,13 +4,13 @@ Generate Mode is the heart of BitwigBuddy, allowing you to quickly create drum p
 
 All selected settings in this panel are saved within the Bitwig Project.
 
-![Generate Mode Panel](../../images/Generate-Page.png)
+![Generate Mode Panel](/images/Generate-Page.png)
 
 ## Mode Selection
 
 First, ensure Generate Mode is selected from the mode selector at the top of the panel.
 
-![Generate/Edit Mode Selector](../../images/Mode-Selector.png)
+![Generate/Edit Mode Selector](/images/Mode-Selector.png)
 
 ## Common Controls
 
@@ -46,7 +46,7 @@ In this mode you can generate steps in the selected clip using a preset pattern.
 ### Settings from Preset / Custom
 By default, all settings are taken from the selected preset. You can override them by changing the settings in the UI. Check [Settings From Preset/Custom](#settings-from-preset-custom)
 
-![Note Destination](../../images/Settings-From-Preset-Custom.png)
+![Note Destination](/images/Settings-From-Preset-Custom.png)
 
 ### Note Destination
 - Set the MIDI note or drum pad for the pattern
@@ -55,14 +55,14 @@ By default, all settings are taken from the selected preset. You can override th
   - Select "LN" to learn from any played note
   - Select "DM" to learn from clicked drum pads
 
-![Note Destination](../../images/Note-Destination.png)
+![Note Destination](/images/Note-Destination.png)
 
 ### Step Size & Length
 - **Step Size**: Sets the rhythmic grid for the pattern
 - **Subdivisions**: Choose Straight, Triplets, Quintuplets, or Septuplets
 - **Note Length**: Sets the duration of each generated note
 
-![Step Size and Note Length](../../images/Step-Size-Note-Length.png)
+![Step Size and Note Length](/images/Step-Size-Note-Length.png)
 
 ## Program Mode
 
@@ -96,7 +96,7 @@ BitwigBuddy offers a wide variety of velocity shapes:
 
 After generating a pattern, you can trigger additional actions:
 
-![Post Actions](../../images/Post-Actions.png)
+![Post Actions](/images/Post-Actions.png)
 
 - **Duplicate Clip**: Creates a copy of the generated clip (Clip Launcher only)
 - **Launch Clip**: Automatically plays the newly generated clip

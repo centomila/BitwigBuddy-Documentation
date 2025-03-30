@@ -8,7 +8,7 @@ BitwigBuddy is a an extension for Bitwig Studio designed to simplify and acceler
 
 BitwigBuddy has three main modes of operation:
 
-![Generate/Edit/Macro Mode Selection](../../images/Mode-Selector.png)
+![Generate/Edit/Macro Mode Selection](/images/Mode-Selector.png)
 
 ### Generate Mode
 
