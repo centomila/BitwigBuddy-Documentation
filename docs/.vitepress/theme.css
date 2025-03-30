@@ -41,3 +41,8 @@ html.dark {
   --vp-c-warning: #ffc107;
   --vp-c-danger: #dc3545;
 }
+
+/* Apply shadow-glow effect behind the logo on the home page */
+.VPHome .VPHomeHero .VPImage {
+  box-shadow: 0 0 20px 10px rgba(189, 52, 254, 0.6), 0 0 30px 15px rgba(71, 202, 255, 0.6);
+}
