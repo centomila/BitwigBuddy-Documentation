@@ -1,6 +1,8 @@
 # Bitwig Embedded Actions
 
-Bitwig Studio provides a comprehensive set of internal actions that can be triggered via keyboard shortcuts, controllers, or scripts. This section documents all available native actions within Bitwig.
+Bitwig Studio provides a set of internal actions that can be triggered via keyboard shortcuts or the *Commander*. This section documents all available native actions within Bitwig.
+
+All Bitwig actions are don't receive any parameters and are executed immediately when triggered. Be sure to focus on the correct panel before executing an action, as some actions may affect the currently selected panel or item.
 
 Due to the extensive number of actions, they are categorized by functionality. Select a category below to view the specific actions.
 
