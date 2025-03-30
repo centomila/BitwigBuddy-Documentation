@@ -3,6 +3,5 @@
   command = "npm run build"
 
 [context.production]
-  environment = {
+  [context.production.environment]
     NODE_ENV = "production"
-  }
