@@ -25,7 +25,8 @@ Macros stored in the `BitwigBuddy/Macros` folder:
 - **Execute Macro**: Run the selected macro
 - **Stop All Macros**: Stop the execution of all running macros
 
-![Macro Show Slot Compact](../../../images/Macro-Show-Slot-Compact.png)
+<!-- ![Macro Show Slot Compact](../../../images/Macro-Show-Slot-Compact.png) -->
+
 ![Macro Show Slot All](../../../images/Macro-Show-Slot-All.png)
 
 #### Instant Macro Mode

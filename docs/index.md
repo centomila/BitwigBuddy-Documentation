@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: BitwigBuddy
-  text: Bitwig Studio Extension for Generating Drum Patterns
+  text: Companion Extension for Bitwig Studio
   tagline: Simplify your music production workflow with efficient pattern creation and macro automation
   image:
     src: /image.png
@@ -24,7 +24,7 @@ hero:
 features:
   - icon: 🥁
     title: Generate Mode
-    details: Create drum patterns using presets or generate semi-random patterns with customizable parameters
+    details: Create drum patterns using presets or generate patterns with customizable parameters
     link: /guide/bitwigbuddy/generate-mode
   - icon: ✏️
     title: Edit Mode
