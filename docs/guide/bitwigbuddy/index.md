@@ -1,7 +1,5 @@
 # BitwigBuddy
 
-![Screenshot](../../../image.png)
-
 ## 🎹 What is BitwigBuddy?
 
 BitwigBuddy is a comprehensive extension for Bitwig Studio designed to simplify and accelerate your music production workflow. It enables efficient creation, editing, and automation of MIDI patterns, drum sequences, and complex macros. Perfect for streamlining tasks and boosting creativity!
@@ -10,7 +8,7 @@ BitwigBuddy is a comprehensive extension for Bitwig Studio designed to simplify 
 
 BitwigBuddy offers three main modes of operation:
 
-![Generate/Edit/Macro Mode Selection](../../../GenerateEditMacro.png)
+![Generate/Edit/Macro Mode Selection](../../images/Mode-Selector.png)
 
 ### Generate Mode
 

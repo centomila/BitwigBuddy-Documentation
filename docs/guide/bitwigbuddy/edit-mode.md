@@ -2,7 +2,7 @@
 
 Edit Mode allows you to modify existing MIDI patterns by applying velocity transformations to selected notes.
 
-![Edit Mode Panel](../../../images/Edit-Mode.png)
+![Edit Mode Panel](../../images/Edit-Mode.png)
 
 ## Accessing Edit Mode
 
@@ -48,7 +48,7 @@ This is particularly useful for:
 
 The "Clear Current Clip" button removes all notes from the current clip, giving you a clean slate to work with.
 
-![Clear Current Clip and Note Destination](../../../images/Other.png)
+![Clear Current Clip and Note Destination](../../images/Other.png)
 
 ## Application Examples
 

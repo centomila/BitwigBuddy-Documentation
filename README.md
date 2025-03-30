@@ -14,7 +14,7 @@ npm install
 npm run docs:dev
 ```
 
-The site will be available at http://localhost:5173
+The site will be available at [http://localhost:5173](http://localhost:5173) (for local development only). Replace this with your production URL when deploying.
 
 ## Building
 

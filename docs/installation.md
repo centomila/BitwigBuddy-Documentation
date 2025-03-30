@@ -24,13 +24,13 @@ Getting BitwigBuddy up and running is quick and easy.
 
    1. *Navigate to the Controller settings in Bitwig Studio.*
    2. *Click on "Add Controller" to open the list of available extensions.*
-      ![Add Controller Step 1](../../images/Add-Controller-1.png)
+      ![Add Controller Step 1](images/Add-Controller-1.png)
 
    3. *Select "Centomila" from the list.*
-   ![Add Controller Step 2](../../images/Add-Controller-2.png)
+   ![Add Controller Step 2](images/Add-Controller-2.png)
 
    4. *Select "BitwigBuddy" from the list to add the extension.*
-   ![Add Controller Step 3](../../images/Add-Controller-3.png)
+   ![Add Controller Step 3](images/Add-Controller-3.png)
 
 4. 🎉 BitwigBuddy should now appear in the Bitwig Studio Controller section
 
