@@ -2,6 +2,8 @@
 
 Generate Mode is the heart of BitwigBuddy, allowing you to quickly create drum patterns, rhythmic sequences, and musical phrases.
 
+All selected settings in this panel are saved within the Bitwig Project.
+
 ![Generate Mode Panel](../../images/Generate-Page.png)
 
 ## Mode Selection
@@ -34,12 +36,17 @@ These controls are available in both Preset and Program modes:
 
 ## Preset Mode
 
-Preset Mode uses predefined pattern templates from the unified preset system introduced in version 1.0.0.
+In this mode you can generate steps in the selected clip using a preset pattern. Patterns are stored in the **Custom Presets** folder. You can create your own presets or use the built-in ones.
 
 ### Selecting Presets
-1. Choose "Preset" from the Pattern Type selector
-2. Browse through the preset list to select a pattern (includes both built-in and custom presets)
-3. The pattern's step data will be displayed in the UI
+1. Open the dropdown menu *Presets*
+2. Select a preset from the list
+3. The pattern's step data will be displayed in the UI, Note Destination, and other settings will be set according to the selected preset.
+
+### Settings from Preset / Custom
+By default, all settings are taken from the selected preset. You can override them by changing the settings in the UI. Check [Settings From Preset/Custom](#settings-from-preset-custom)
+
+![Note Destination](../../images/Settings-From-Preset-Custom.png)
 
 ### Note Destination
 - Set the MIDI note or drum pad for the pattern
@@ -62,7 +69,8 @@ Preset Mode uses predefined pattern templates from the unified preset system int
 Program Mode gives you control over semi-random pattern generation.
 
 ### Controls
-- **Steps**: Shows the generated step sequence
+- **Steps**: Shows the selected step sequence
+ - *[118, 0, 100, 0,]* → 4 steps. The second and the fourth steps are empty (0). The first and third steps are filled with notes with velocity 118 and 100.
 - **Velocity Range**:
   - **Min Velocity**: Minimum note velocity (1-127)
   - **Max Velocity**: Maximum note velocity (1-127)
@@ -106,13 +114,22 @@ You can save your patterns as presets that will appear alongside the built-in on
 
 For more details on the preset system, see the [Presets System](/guide/bitwigbuddy/custom-presets) page.
 
-## Tips & Ideas
+## Workflow Presets
 
-- Rapidly browse presets for quick inspiration
-- Reverse patterns for creative rhythmic results
-- Use "Add Pattern" with low density to create variations
-- Try different velocity shapes to enhance groove
-- Use Skip Step creatively for unique rhythmic variations
-- Save generated patterns as custom presets for reuse
-- Combine multiple patterns by using "Add Pattern" repeatedly
-- Learn notes directly from drum pads for efficient workflow
+**Preparation:**
+1. In Bitwig, select a clip from the *Clip Launcher* or *Arranger*
+2. Open the BitwigBuddy panel
+3. If your clip is in the arranger, select *Arranger* in the *Destination Launcher/Arranger* toggle
+
+### Presets with default settings
+
+1. Select a Preset from the *Presets* dropdown
+2. Press Generate!
+
+New step notes will be added to the selected clip.
+
+### Presets with custom settings
+1. Press *Show* 
+
+
+## Workflow Program

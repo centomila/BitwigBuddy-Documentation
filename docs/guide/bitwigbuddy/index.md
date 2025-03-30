@@ -2,11 +2,11 @@
 
 ## 🎹 What is BitwigBuddy?
 
-BitwigBuddy is a comprehensive extension for Bitwig Studio designed to simplify and accelerate your music production workflow. It enables efficient creation, editing, and automation of MIDI patterns, drum sequences, and complex macros. Perfect for streamlining tasks and boosting creativity!
+BitwigBuddy is a an extension for Bitwig Studio designed to simplify and accelerate your music production workflow. It enables efficient creation of MIDI patterns, and command sequences. Perfect for streamlining tasks and boosting creativity!
 
 ## Key Features
 
-BitwigBuddy offers three main modes of operation:
+BitwigBuddy has three main modes of operation:
 
 ![Generate/Edit/Macro Mode Selection](../../images/Mode-Selector.png)
 
@@ -36,13 +36,14 @@ Automate complex sequences of actions:
 
 The latest version (1.0.0) introduces:
 
-- 📙 Comprehensive documentation and manual
+- 📙 This Manual!
 - 🦘 Skip Step Every X functionality in Program Mode
 - 🥁 Learn Note from selected drum pad
 - 🪢 Unified preset system (all presets use the same .txt format)
 - ➕ Replace/Add pattern toggle
 - 🔁 Pattern repetition options
 - 💾 Easy custom preset saving
+- 🤖 Macros!
 
 ## Getting Started
 
@@ -50,9 +51,9 @@ To begin using BitwigBuddy:
 
 1. Follow the [Installation](/guide/bitwigbuddy/installation) instructions
 2. Explore [Generate Mode](/guide/bitwigbuddy/generate-mode) for creating patterns
-3. Learn how to refine patterns in [Edit Mode](/guide/bitwigbuddy/edit-mode)
-4. Discover workflow automation with [Macro Mode](/guide/bitwigbuddy/macro-mode)
-5. Create your own [Presets](/guide/bitwigbuddy/custom-presets)
+3. Create your own [Presets](/guide/bitwigbuddy/custom-presets)
+4. Learn how to refine patterns in [Edit Mode](/guide/bitwigbuddy/edit-mode)
+5. Discover workflow automation with [Macro Mode](/guide/bitwigbuddy/macro-mode)
 
 ## Support and Community
 

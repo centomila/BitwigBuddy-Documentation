@@ -36,15 +36,6 @@ Getting BitwigBuddy up and running is quick and easy.
 
 ## Verifying Installation
 
-After installation:
-
-1. A BitwigBuddy panel should be available in Bitwig Studio
-   - Check for the BitwigBuddy panel in the main interface of Bitwig Studio.
-2. You'll see the Generate/Edit/Macro mode selector
-   - Ensure that the mode selector is visible and functional.
-3. The preset browser should display all available patterns
-   - Open the preset browser to confirm that all patterns are loaded correctly.
-
 If you don't see the panel, try these troubleshooting steps:
 
 - Make sure you've completely extracted the zip file
@@ -56,8 +47,18 @@ If you don't see the panel, try these troubleshooting steps:
 
 BitwigBuddy uses several folders for different purposes:
 
-- **Custom Presets**: Store your own pattern presets as .txt files
-- **Macros**: Contains macro script files
-- **Presets**: Built-in pattern presets
+BitwigBuddy folder structure:
+
+```
+📂 Bitwig Studio
+├── 📂 Extensions
+|  ├──📄 BitwigBuddy.bwextension
+|  |  ├── 📂 BitwigBuddy
+|  |  │   ├── 📂 Custom Presets
+|  |  │   ├── 📂 Macros
+```
+
+- 📂 **Custom Presets**: Txt files with pattern presets. You can add your own here.
+- 📂 **Macros**: Contains macro script files. You can add your own macros here. Supports subfolders for organization.
 
 All these folders are located within the BitwigBuddy folder in your Extensions directory.

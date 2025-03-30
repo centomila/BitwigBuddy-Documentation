@@ -30,6 +30,6 @@ Automate sequences of native Bitwig actions combined with custom commands to str
 
 ## Version Information
 
-Current version: v0.9.8 beta
+Current version: v1.0.0 alpha-1
 
 Check the [Changelog](/guide/changelog) for details about the latest updates and upcoming features.
