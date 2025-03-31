@@ -1,6 +1,6 @@
 # BitwigBuddy Actions
 
-This page serves as an overview of all BitwigBuddy actions. Each category of actions is now split into its own dedicated page for better organization and readability.
+BitwigBuddy Actions are additional macro commands to the Bitwig Studio API. While the Bitwig Embedded Actions are simple commands, BitwigBuddy Actions can accept parameters and can be used to create more complex commands.
 
 ## Action Categories
 

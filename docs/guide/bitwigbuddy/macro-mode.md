@@ -90,8 +90,7 @@ Macros follow these syntax rules:
   - Floats: `-2.5, 0.0, 1.2, 420.42`
   - Booleans: `true/false`
 - Comments start with `//` and are ignored during execution
-- Some actions require the correct Bitwig view to be in focus
-- To automatically close the BitwigBuddy Panel, use the command `Full screen`
+  - Inline comments are not supported, so use separate lines for comments
 
 ## Variables and Loops
 
@@ -167,7 +166,7 @@ for (track = 1 to 4) {
 3. Variables defined outside loops are accessible inside loops
 4. Loop counter variables are only valid inside their respective loops
 5. Use debug mode for troubleshooting: `BB Macro(myMacro, debug)`
-6. You can use comments (`//`) both inside and outside loops
+6. To automatically close the BitwigBuddy Panel, use the command `BB Close Panel`.
 
 ## Available Actions
 

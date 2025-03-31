@@ -2,9 +2,29 @@
 
 Bitwig Studio provides a set of internal actions that can be triggered via keyboard shortcuts or the *Commander*. This section documents all available native actions within Bitwig.
 
-All Bitwig actions are don't receive any parameters and are executed immediately when triggered. Be sure to focus on the correct panel before executing an action, as some actions may affect the currently selected panel or item.
+All Bitwig actions don't receive any parameters and are executed immediately when triggered. Be sure to focus on the correct panel before executing an action, as some actions may affect the currently selected panel or item.
 
 Due to the extensive number of actions, they are categorized by functionality. Select a category below to view the specific actions.
+
+## Usage
+
+```
+Macro: "Advance 8 bars and insert cue marker"
+Description: "Generate Cue Markers for a House Track"
+Author: "Centomila"
+
+jump_forward_8_bars
+insert_arranger_cue_marker_at_play_position
+```
+
+Embedded Bitwig Actions names don't have consistent naming. For example you will find some actions written like this:
+`toggle_arranger_loop`
+and other times like this:
+`Play Transport From Start`
+
+Commands are case sensitive, so be sure to use the correct case when using them in your macros.
+
+Many commands are context-sensitive. For example, the command `Delete` will delete the currently selected item in the active panel. Could be a Track, a Device, a Clip, a Step, a Modulator or whatever can be deleted within Bitwig.
 
 ## Action Categories
 

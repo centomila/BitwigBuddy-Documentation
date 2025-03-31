@@ -36,7 +36,7 @@ export default defineConfig({
           ],
         },
         {
-          text: "Actions Reference",
+          text: "Macro Reference",
           items: [
             { text: "BitwigBuddy Actions", link: "/guide/bitwigbuddy-actions" },
             { text: "Bitwig Actions", link: "/guide/bitwig-actions" },
@@ -87,6 +87,22 @@ export default defineConfig({
               text: "Clip Launcher",
               link: "/guide/bitwig-actions/clip-launcher",
             },
+            { text: "Macro Mode", link: "/guide/bitwigbuddy/macro-mode" },
+          ],
+        },
+        {
+          text: "BitwigBuddy Actions",
+          collapsed: true,
+          items: [
+            { text: "Overview", link: "/guide/bitwigbuddy-actions" },
+            { text: "Clip", link: "/guide/bitwigbuddy-actions/clip" },
+            { text: "Device", link: "/guide/bitwigbuddy-actions/device" },
+            { text: "Drum Pad", link: "/guide/bitwigbuddy-actions/drum-pad" },
+            { text: "Step", link: "/guide/bitwigbuddy-actions/step" },
+            { text: "Track", link: "/guide/bitwigbuddy-actions/track" },
+            { text: "Transport", link: "/guide/bitwigbuddy-actions/transport" },
+            { text: "Utility", link: "/guide/bitwigbuddy-actions/utility" },
+            { text: "Macro Mode", link: "/guide/bitwigbuddy/macro-mode" },
           ],
         },
       ],
