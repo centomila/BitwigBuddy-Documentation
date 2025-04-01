@@ -5,3 +5,11 @@
 [context.production]
   [context.production.environment]
     NODE_ENV = "production"
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
+
+[dev]
+  framework = "vitepress"

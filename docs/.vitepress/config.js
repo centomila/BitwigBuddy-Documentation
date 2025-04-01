@@ -153,5 +153,14 @@ export default defineConfig({
         '--vp-home-hero-image-background-image': 'linear-gradient(-45deg, #bd34fe 50%, #47caff 50%)',
       },
     },
-  }
+  },
+  vite: {
+    build: {
+      rollupOptions: {
+        input: {
+          main: 'index.html',
+        },
+      },
+    },
+  },
 });
