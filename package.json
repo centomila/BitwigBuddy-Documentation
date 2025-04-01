@@ -1,7 +1,7 @@
 {
   "name": "bitwig-documentation",
   "version": "1.0.0",
-  "description": "Comprehensive documentation for Bitwig Studio and BitwigBuddy",
+  "description": "Documentation for itwigBuddy",
   "type": "module",
   "main": "index.js",
   "scripts": {
