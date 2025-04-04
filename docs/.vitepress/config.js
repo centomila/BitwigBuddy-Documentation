@@ -38,9 +38,6 @@ export default defineConfig({
             { text: "Macro Mode", link: "/guide/bitwigbuddy/macro-mode" },
           ],
         },
-
-
-
         {
           text: "Bitwig Actions",
           collapsed: true,
@@ -144,15 +141,6 @@ export default defineConfig({
         '--vp-home-hero-name-color': 'transparent',
         '--vp-home-hero-name-background': '-webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff)',
         '--vp-home-hero-image-background-image': 'linear-gradient(-45deg, #bd34fe 50%, #47caff 50%)',
-      },
-    },
-  },
-  vite: {
-    build: {
-      rollupOptions: {
-        input: {
-          main: 'index.html',
-        },
       },
     },
   },
