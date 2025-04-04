@@ -3,44 +3,9 @@
   --vp-c-brand: #007bff;
   --vp-c-brand-light: #6f42c1;
   --vp-c-brand-dark: #0056b3;
-  --vp-c-text-1: #000000;
-  --vp-c-text-2: #4a4a4a;
-  --vp-c-text-3: #6c757d;
-  --vp-c-bg: #ffffff;
-  --vp-c-bg-soft: #f8f9fa;
-  --vp-c-bg-alt: #e9ecef;
-  --vp-c-border: #dee2e6;
-  --vp-c-code-bg: #f1f3f5;
-  --vp-c-code-border: #e9ecef;
-  --vp-c-code-text: #212529;
-  --vp-c-accent: #6610f2;
-  --vp-c-success: #28a745;
-  --vp-c-info: #17a2b8;
-  --vp-c-warning: #ffc107;
-  --vp-c-danger: #dc3545;
 }
 
-html.dark {
-  /* Dark Theme */
-  --vp-c-brand: #007bff;
-  --vp-c-brand-light: #6f42c1;
-  --vp-c-brand-dark: #0056b3;
-  --vp-c-text-1: #e9ecef;
-  --vp-c-text-2: #adb5bd;
-  --vp-c-text-3: #6c757d;
-  --vp-c-bg: #121212;
-  --vp-c-bg-soft: #1e1e1e;
-  --vp-c-bg-alt: #2c2c2c;
-  --vp-c-border: #343a40;
-  --vp-c-code-bg: #1e1e1e;
-  --vp-c-code-border: #343a40;
-  --vp-c-code-text: #e9ecef;
-  --vp-c-accent: #6610f2;
-  --vp-c-success: #28a745;
-  --vp-c-info: #17a2b8;
-  --vp-c-warning: #ffc107;
-  --vp-c-danger: #dc3545;
-}
+
 
 :root {
     --vp-home-hero-name-color: transparent;

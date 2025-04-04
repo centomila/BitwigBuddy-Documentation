@@ -18,7 +18,11 @@ export default defineConfig({
       "/guide/": [
         {
           text: "Introduction",
-          items: [{ text: "Overview", link: "/guide/" }],
+          items: [
+            { text: "Overview", link: "/guide/" },
+            { text: "Changelog", link: "/guide/changelog" },
+            { text: "Support", link: "/guide/bitwigbuddy/support" }
+          ],
         },
         {
           text: "BitwigBuddy",
@@ -32,20 +36,11 @@ export default defineConfig({
             },
             { text: "Edit Mode", link: "/guide/bitwigbuddy/edit-mode" },
             { text: "Macro Mode", link: "/guide/bitwigbuddy/macro-mode" },
-            { text: "Support", link: "/guide/bitwigbuddy/support" },
           ],
         },
-        {
-          text: "Macro Reference",
-          items: [
-            { text: "BitwigBuddy Actions", link: "/guide/bitwigbuddy-actions" },
-            { text: "Bitwig Actions", link: "/guide/bitwig-actions" },
-          ],
-        },
-        {
-          text: "Reference",
-          items: [{ text: "Changelog", link: "/guide/changelog" }],
-        },
+
+
+
         {
           text: "Bitwig Actions",
           collapsed: true,
@@ -87,7 +82,6 @@ export default defineConfig({
               text: "Clip Launcher",
               link: "/guide/bitwig-actions/clip-launcher",
             },
-            { text: "Macro Mode", link: "/guide/bitwigbuddy/macro-mode" },
           ],
         },
         {
@@ -102,7 +96,6 @@ export default defineConfig({
             { text: "Track", link: "/guide/bitwigbuddy-actions/track" },
             { text: "Transport", link: "/guide/bitwigbuddy-actions/transport" },
             { text: "Utility", link: "/guide/bitwigbuddy-actions/utility" },
-            { text: "Macro Mode", link: "/guide/bitwigbuddy/macro-mode" },
           ],
         },
       ],
