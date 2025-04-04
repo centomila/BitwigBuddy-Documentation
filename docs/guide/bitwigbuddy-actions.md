@@ -11,5 +11,6 @@ BitwigBuddy Actions are additional macro commands to the Bitwig Studio API. Whil
 - [Transport Actions](/guide/bitwigbuddy-actions/transport)
 - [Utility Actions](/guide/bitwigbuddy-actions/utility)
 - [Step Actions](/guide/bitwigbuddy-actions/step)
+- [State Functions](/guide/bitwigbuddy-actions/state-functions)
 
 Please navigate to the respective pages for detailed descriptions and examples of each action.
