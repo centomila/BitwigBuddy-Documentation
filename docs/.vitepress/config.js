@@ -93,6 +93,7 @@ export default defineConfig({
             { text: "Track", link: "/guide/bitwigbuddy-actions/track" },
             { text: "Transport", link: "/guide/bitwigbuddy-actions/transport" },
             { text: "Utility", link: "/guide/bitwigbuddy-actions/utility" },
+            { text: "State Functions", link: "/guide/bitwigbuddy-actions/state-functions" },
           ],
         },
       ],
