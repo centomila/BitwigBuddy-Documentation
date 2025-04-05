@@ -4,6 +4,9 @@ export default defineConfig({
   lang: "en-US",
   title: "BitwigBuddy",
   description: "BitwigBuddy is a Bitwig Studio extension that allows you to quickly generate note steps and automate repetitive tasks.",
+  sitemap: {
+    hostname: 'https://bitwigbuddy.centomila.com/'
+  },
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
