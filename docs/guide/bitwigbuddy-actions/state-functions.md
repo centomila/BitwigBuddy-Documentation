@@ -17,64 +17,64 @@ These values can be used in your macros for conditional logic, displaying inform
 
 ### Track Information
 
-| Function | Return Type | Description |
-|----------|-------------|-------------|
-| `getCurrentTrackName()` | String | Gets the name of the currently selected track |
-| `getCurrentTrackNumber()` | Integer | Gets the position of the current track (1-based index) |
-| `getCurrentTrackColor()` | String | Gets the color of the current track as hex code (without #) |
-| `isCurrentTrackMuted()` | Boolean | Checks if the current track is muted |
-| `isCurrentTrackSoloed()` | Boolean | Checks if the current track is soloed |
-| `isCurrentTrackArmed()` | Boolean | Checks if the current track is armed for recording |
-| `getCurrentTrackVolume()` | Double | Gets the current track volume (0.0 to 1.0) |
-| `getCurrentTrackPan()` | Double | Gets the current track pan position (-1.0 to 1.0) |
-| `getTrackCount()` | Integer | Gets the total number of tracks in the current project |
+| Function                  | Return Type | Description                                                 |
+| ------------------------- | ----------- | ----------------------------------------------------------- |
+| `getCurrentTrackName()`   | String      | Gets the name of the currently selected track               |
+| `getCurrentTrackNumber()` | Integer     | Gets the position of the current track (1-based index)      |
+| `getCurrentTrackColor()`  | String      | Gets the color of the current track as hex code (without #) |
+| `isCurrentTrackMuted()`   | Boolean     | Checks if the current track is muted                        |
+| `isCurrentTrackSoloed()`  | Boolean     | Checks if the current track is soloed                       |
+| `isCurrentTrackArmed()`   | Boolean     | Checks if the current track is armed for recording          |
+| `getCurrentTrackVolume()` | Double      | Gets the current track volume (0.0 to 1.0)                  |
+| `getCurrentTrackPan()`    | Double      | Gets the current track pan position (-1.0 to 1.0)           |
+| `getTrackCount()`         | Integer     | Gets the total number of tracks in the current project      |
 
 ### Device Information
 
-| Function | Return Type | Description |
-|----------|-------------|-------------|
-| `getCurrentDeviceName()` | String | Gets the name of the currently selected device |
-| `isCurrentDeviceEnabled()` | Boolean | Checks if the current device is enabled |
-| `isCurrentDeviceWindowOpen()` | Boolean | Checks if the current device window is open |
-| `getDeviceCount()` | Integer | Gets the total number of devices in the current track |
+| Function                      | Return Type | Description                                           |
+| ----------------------------- | ----------- | ----------------------------------------------------- |
+| `getCurrentDeviceName()`      | String      | Gets the name of the currently selected device        |
+| `isCurrentDeviceEnabled()`    | Boolean     | Checks if the current device is enabled               |
+| `isCurrentDeviceWindowOpen()` | Boolean     | Checks if the current device window is open           |
+| `getDeviceCount()`            | Integer     | Gets the total number of devices in the current track |
 
 ### Clip Information
 
-| Function | Return Type | Description |
-|----------|-------------|-------------|
-| `getCurrentClipName()` | String | Gets the name of the currently selected clip |
-| `getCurrentClipColor()` | String | Gets the color of the current clip as hex code (without #) |
-| `isCurrentClipLooping()` | Boolean | Checks if the current clip is set to loop |
-| `getCurrentClipLength()` | Double | Gets the length of the current clip in beats |
-| `isCurrentClipPlaying()` | Boolean | Checks if the current clip is playing |
-| `isCurrentClipRecording()` | Boolean | Checks if the current clip is recording |
-| `isCurrentClipSelected()` | Boolean | Checks if the current clip is selected |
+| Function                   | Return Type | Description                                                |
+| -------------------------- | ----------- | ---------------------------------------------------------- |
+| `getCurrentClipName()`     | String      | Gets the name of the currently selected clip               |
+| `getCurrentClipColor()`    | String      | Gets the color of the current clip as hex code (without #) |
+| `isCurrentClipLooping()`   | Boolean     | Checks if the current clip is set to loop                  |
+| `getCurrentClipLength()`   | Double      | Gets the length of the current clip in beats               |
+| `isCurrentClipPlaying()`   | Boolean     | Checks if the current clip is playing                      |
+| `isCurrentClipRecording()` | Boolean     | Checks if the current clip is recording                    |
+| `isCurrentClipSelected()`  | Boolean     | Checks if the current clip is selected                     |
 
 ### Transport Information
 
-| Function | Return Type | Description |
-|----------|-------------|-------------|
-| `getCurrentBpm()` | Double | Gets the current project tempo in BPM |
-| `getTimeSignatureNumerator()` | Integer | Gets the numerator of the current time signature |
-| `getTimeSignatureDenominator()` | Integer | Gets the denominator of the current time signature |
-| `isPlaying()` | Boolean | Checks if transport is currently playing |
-| `isRecording()` | Boolean | Checks if transport is currently recording |
-| `getPlayPosition()` | Double | Gets the current play position in beats |
-| `isMetronomeEnabled()` | Boolean | Checks if the metronome is enabled |
-| `isArrangerLoopEnabled()` | Boolean | Checks if the arranger loop is enabled |
+| Function                        | Return Type | Description                                        |
+| ------------------------------- | ----------- | -------------------------------------------------- |
+| `getCurrentBpm()`               | Double      | Gets the current project tempo in BPM              |
+| `getTimeSignatureNumerator()`   | Integer     | Gets the numerator of the current time signature   |
+| `getTimeSignatureDenominator()` | Integer     | Gets the denominator of the current time signature |
+| `isPlaying()`                   | Boolean     | Checks if transport is currently playing           |
+| `isRecording()`                 | Boolean     | Checks if transport is currently recording         |
+| `getPlayPosition()`             | Double      | Gets the current play position in beats            |
+| `isMetronomeEnabled()`          | Boolean     | Checks if the metronome is enabled                 |
+| `isArrangerLoopEnabled()`       | Boolean     | Checks if the arranger loop is enabled             |
 
 ### Project Information
 
-| Function | Return Type | Description |
-|----------|-------------|-------------|
-| `getProjectName()` | String | Gets the name of the current project |
+| Function           | Return Type | Description                          |
+| ------------------ | ----------- | ------------------------------------ |
+| `getProjectName()` | String      | Gets the name of the current project |
 
 ### Scene Information
 
-| Function | Return Type | Description |
-|----------|-------------|-------------|
-| `getCurrentSceneIndex()` | Integer | Gets the index of the current scene |
-| `getCurrentSceneName()` | String | Gets the name of the current scene |
+| Function                 | Return Type | Description                         |
+| ------------------------ | ----------- | ----------------------------------- |
+| `getCurrentSceneIndex()` | Integer     | Gets the index of the current scene |
+| `getCurrentSceneName()`  | String      | Gets the name of the current scene  |
 
 ## Usage Examples
 
@@ -134,14 +134,17 @@ Message("Current project: ${getProjectName()}")
 // Using variables
 var trackName = getCurrentTrackName()
 var deviceName = getCurrentDeviceName()
+var isArmed = isCurrentTrackArmed()
 Message("Track: ${trackName}, Device: ${deviceName}")
 
 // Using in conditional statements
-if (isCurrentTrackArmed()) {
+if (${isArmed}) {
     Message("Track is armed for recording!")
-} else {
-    Message("Track is not armed.")
 }
+
+if (!${isArmed}) {
+    Message("Track is NOT armed for recording!")
+} 
 ```
 
 ## Notes
