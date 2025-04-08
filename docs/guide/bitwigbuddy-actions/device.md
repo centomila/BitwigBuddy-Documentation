@@ -4,10 +4,10 @@ Device actions allow you to manipulate devices in Bitwig Studio. These actions i
 
 ## Available Actions
 
-| Action           | Description                          | Example                     |
-|------------------|--------------------------------------|-----------------------------|
-| Insert Device    | Inserts a Bitwig device             | `Insert Device("Drum Machine")` |
-| Insert VST3      | Inserts a VST3 plugin               | `Insert VST3("Reverb")`    |
+| Action        | Description             | Example                         |
+| ------------- | ----------------------- | ------------------------------- |
+| Insert Device | Inserts a Bitwig device | `Insert Device("Drum Machine")` |
+| Insert VST3   | Inserts a VST3 plugin   | `Insert VST3("Reverb")`         |
 
 ### Example Usage
 
