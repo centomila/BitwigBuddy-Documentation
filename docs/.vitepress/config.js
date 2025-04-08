@@ -7,7 +7,18 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://bitwigbuddy.centomila.com/'
   },
+  lastUpdated: true, // Enable last updated date and time
   themeConfig: {
+    // Display text for last updated feature
+    lastUpdatedText: 'Last Updated',
+    // Custom date formatter to show extended date format without time
+    lastUpdated: {
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: undefined
+      }
+    },
+    
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
