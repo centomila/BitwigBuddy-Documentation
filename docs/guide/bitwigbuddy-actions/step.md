@@ -2,7 +2,7 @@
 
 Step actions allow you to manipulate individual steps in a MIDI pattern. These actions include setting velocity, length, and other properties for selected steps.
 
-## Available Actions
+## Step Actions List
 
 | Action                          | Description                                      | Example                                |
 |---------------------------------|--------------------------------------------------|----------------------------------------|
@@ -29,7 +29,7 @@ Step actions allow you to manipulate individual steps in a MIDI pattern. These a
 | Step Selected Repeat Velocity End | Sets the end velocity for note repeats         | `Step Selected Repeat Velocity End(0.4)` |
 | Step Set                        | Sets multiple properties for selected steps     | `Step Set(velocity=100, length=0.5)`  |
 
-### Example Usage
+## Step Actions Example
 
 ```plaintext
 // Set velocity and length for selected steps

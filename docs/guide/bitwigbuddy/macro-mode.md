@@ -122,6 +122,12 @@ for (i = 1 to 4) {
 }
 ```
 
+#### Notes
+
+- Loops can't be nested inside each other.
+- *i* can be named anything, but it's common to use *i* or other single-letter names for loop counters.
+- Loop counter variables are only valid inside their respective loops
+
 ### Math Expressions
 
 Perform calculations within variable references:
@@ -142,31 +148,13 @@ Supported operators:
 - Multiplication: `*`
 - Division: `/`
 
-### Nested Loops
-
-Loops can be nested for more complex patterns:
-
-```
-// Create a drum grid across multiple tracks and positions
-var baseNote = 36
-for (track = 1 to 4) {
-    Track Select(${track})
-    for (pos = 1 to 8) {
-        Clip Create(${pos}, 1)
-        Step Selected Velocity(${80 + track*10})
-        Step Selected Note(${baseNote + track*4})
-    }
-}
-```
 
 ## Tips for Working with Macros
 
 1. **Save your work before running complex macros!** Each action is recorded as an undo step.
 2. Make sure opening `{` and closing `}` braces are properly matched in loops
 3. Variables defined outside loops are accessible inside loops
-4. Loop counter variables are only valid inside their respective loops
-5. Use debug mode for troubleshooting: `BB Macro(myMacro, debug)`
-6. To automatically close the BitwigBuddy Panel, use the command `BB Close Panel`.
+4. To automatically close the BitwigBuddy Panel, use the command `BB Close Panel`.
 
 ## Available Actions
 
@@ -180,29 +168,56 @@ Macros can use two types of actions:
 
 ## Example Macros
 
-Here's a simple example that creates a drum track with four pads:
+Here's a simple example that creates a 8 tracks with different colors and names:
 
 ```
-Macro: "Simple Drum Setup"
-Description: "Creates a new track with a Drum Machine and four basic pads"
-Author: "BitwigBuddy User"
+Macro: "Create 8 Tracks"
+Description: "Create eight tracks with colors: Drums, Bass, Bass 2, Pad, Keys, Lead, Arp, and Vocals."
+Author: "Centomila"
 
+// Track 1: Drums (Red)
 Create Instrument Track
-Track Rename("Basic Drums")
-Insert Device("Drum Machine")
+Track Color ("D32F2F")
+Track Rename ("Drums")
+Wait (500)
+Insert Device ("Drum Machine")
 
-// Add four drum pads with basic devices
-Select Drum Pad("C1")
-Insert Device("Kick V4")
+// Track 2: Bass (Green)
+Create Instrument Track
+Track Color ("43A047")
+Track Rename ("Bass")
 
-Select Drum Pad("D1")
-Insert Device("Snare V4")
+// Track 3: Bass 2 (Teal)
+Create Instrument Track
+Track Color ("00897B")
+Track Rename ("Bass 2")
 
-Select Drum Pad("F#1")
-Insert Device("Hat V4")
+// Track 4: Pad (Violet)
+Create Instrument Track
+Track Color ("7B1FA2")
+Track Rename ("Pad")
 
-Select Drum Pad("A#1")
-Insert Device("Clap V4")
+// Track 5: Keys (Yellow)
+Create Instrument Track
+Track Color ("F9A825")
+Track Rename ("Keys")
+
+// Track 6: Lead (Cyan)
+Create Instrument Track
+Track Color ("00ACC1")
+Track Rename ("Lead")
+
+// Track 7: Arp (Fuchsia)
+Create Instrument Track
+Track Color ("C2185B")
+Track Rename ("Arp")
+
+// Track 8: Vocals (Pink)
+Create Audio Track
+Track Color ("EC407A")
+Track Rename ("Vocals")
+
+Track Select (1)
 ```
 
 ## Sharing Macros

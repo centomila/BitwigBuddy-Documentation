@@ -2,7 +2,7 @@
 
 Drum pad actions allow you to manipulate drum pads in Bitwig Studio. These actions include selecting pads, inserting devices, and managing files within drum pads.
 
-## Available Actions
+## Drum Pad Actions List
 
 | Action                  | Description                                      | Example                                                       |
 | ----------------------- | ------------------------------------------------ | ------------------------------------------------------------- |
@@ -12,7 +12,7 @@ Drum pad actions allow you to manipulate drum pads in Bitwig Studio. These actio
 | Insert File In Drum Pad | Inserts a file into the selected drum pad        | `Insert File In Drum Pad("C1", "c:\MySamplesDir\sample.wav")` |
 | Insert VST3 In Drum Pad | Inserts a VST3 plugin into the selected drum pad | `Insert VST3 In Drum Pad("C1", "Reverb")`                     |
 
-### Example Usage
+## Drum Pad Actions Example
 
 ```plaintext
 // Select a drum pad

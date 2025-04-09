@@ -4,6 +4,7 @@ BitwigBuddy Actions are additional macro commands to the Bitwig Studio API. Whil
 
 ## Action Categories
 
+- [All BitwigBuddy Actions](/guide/all-bitwigbuddy-actions)
 - [Track Actions](/guide/bitwigbuddy-actions/track)
 - [Clip Actions](/guide/bitwigbuddy-actions/clip)
 - [Device Actions](/guide/bitwigbuddy-actions/device)

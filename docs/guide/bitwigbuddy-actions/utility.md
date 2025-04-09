@@ -2,14 +2,14 @@
 
 Utility actions provide general-purpose functionality in Bitwig Studio. These actions include waiting and showing messages.
 
-## Available Actions
+## Utility Actions List
 
 | Action           | Description                          | Example                     |
 |------------------|--------------------------------------|-----------------------------|
 | Wait             | Pauses execution for a specified time | `Wait(1000)`               |
 | Message          | Displays a message box              | `Message("Hello World!")` |
 
-### Example Usage
+## Utility Actions Example
 
 ```plaintext
 // Wait for 1 second and display a message

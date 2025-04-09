@@ -100,6 +100,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Overview", link: "/guide/bitwigbuddy-actions" },
+            { text: "All Actions", link: "/guide/all-bitwigbuddy-actions" },
             { text: "Clip", link: "/guide/bitwigbuddy-actions/clip" },
             { text: "Device", link: "/guide/bitwigbuddy-actions/device" },
             { text: "Drum Pad", link: "/guide/bitwigbuddy-actions/drum-pad" },

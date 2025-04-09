@@ -2,7 +2,7 @@
 
 BitwigBuddy provides a set of functions to retrieve state information from Bitwig Studio. These functions can be used in macros to access information about the current track, device, clip, transport, and more.
 
-## Overview
+## Overview of State Functions
 
 State functions allow you to:
 - Get information about the current track (name, number, color, etc.)
@@ -13,7 +13,7 @@ State functions allow you to:
 
 These values can be used in your macros for conditional logic, displaying information, or creating dynamic behaviors.
 
-## Available Functions
+## Function List
 
 ### Track Information
 
@@ -76,7 +76,7 @@ These values can be used in your macros for conditional logic, displaying inform
 | `getCurrentSceneIndex()` | Integer     | Gets the index of the current scene |
 | `getCurrentSceneName()`  | String      | Gets the name of the current scene  |
 
-## Usage Examples
+## Using State Functions in Macros
 
 Here's an example of how to use these functions in a macro:
 
@@ -147,8 +147,8 @@ if (!${isArmed}) {
 } 
 ```
 
-## Notes
+## Notes for Using State Functions
 
-- These functions provide read-only access to Bitwig Studio's state
+- These functions provide **read-only** access to Bitwig Studio's state
 - Values are retrieved at the moment the function is called
 - For real-time monitoring, you may need to call these functions periodically
