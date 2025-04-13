@@ -8,6 +8,13 @@ Macro Mode allows you to automate sequences of actions in Bitwig Studio, combini
 
 Macros in BitwigBuddy automate sequences of native Bitwig actions combined with custom commands, streamlining complex or repetitive tasks. Bitwig Actions correspond almost entirely to the list of Bitwig keyboard shortcut commands, including the not mapped ones.
 
+### Use Cases
+
+- 🔁 Repetitive tasks
+- ↗️ Alternative workflows
+- 🧑‍🏫 Tutorials and demos
+- 💡 Prototyping ideas for other Bitwig Extensions
+
 ## User Interface
 
 ### Macro Panels
@@ -98,7 +105,10 @@ BitwigBuddy macros support variables and loops for more advanced automation:
 
 ### Variables
 
-Define and use variables throughout your macro:
+Define and use variables throughout your macro.
+
+- Variables are defined with `var`.
+- Variables are called with `${varName}`.
 
 ```
 var clipLength = 4
@@ -124,7 +134,7 @@ for (i = 1 to 4) {
 
 #### Notes
 
-- Loops can't be nested inside each other.
+- Loops **can't** be nested inside each other.
 - *i* can be named anything, but it's common to use *i* or other single-letter names for loop counters.
 - Loop counter variables are only valid inside their respective loops
 
@@ -179,8 +189,6 @@ Author: "Centomila"
 Create Instrument Track
 Track Color ("D32F2F")
 Track Rename ("Drums")
-Wait (500)
-Insert Device ("Drum Machine")
 
 // Track 2: Bass (Green)
 Create Instrument Track
@@ -218,6 +226,8 @@ Track Color ("EC407A")
 Track Rename ("Vocals")
 
 Track Select (1)
+Wait (100)
+Insert Device ("Drum Machine")
 ```
 
 ## Sharing Macros

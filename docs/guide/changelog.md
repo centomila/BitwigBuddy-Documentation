@@ -2,9 +2,9 @@
 
 This page documents all notable changes to BitwigBuddy.
 
-## Upcoming in 1.0.0 (Pre-release)
+Current version is **1.0.0 alpha-2**.
 
-*These features are available only via source code*
+## 1.0.0
 
 - 📙 **Manual**
   - The manual is available online at [bitwigbuddy.centomila.com](https://bitwigbuddy.centomila.com)
@@ -47,7 +47,7 @@ This page documents all notable changes to BitwigBuddy.
   - Macros are stored as .txt files
   - Complete list of available actions in the manual
 
-## 0.9.8 beta (Current Release)
+## 0.9.8 beta
 
 - Fixed bug when using _Duplicate Clip_ and _Launch Clip_ together as Post Actions
   - Now the duplicated clip is the one launched

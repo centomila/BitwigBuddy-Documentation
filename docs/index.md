@@ -2,8 +2,8 @@
 layout: home
 hero:
   name: BitwigBuddy
-  text: Companion Extension for Bitwig Studio
-  tagline: Simplify your music production workflow with efficient pattern creation and macro automation
+  text: BitwigBuddy 1.0.0 Alpha-2
+  tagline: Companion Extension for Bitwig Studio
   image:
     src: /images/Home-Page.png
     alt: BitwigBuddy Logo Square
@@ -15,11 +15,8 @@ hero:
       text: Installation
       link: /guide/bitwigbuddy/installation
     - theme: alt
-      text: BitwigBuddy Actions
-      link: /guide/bitwigbuddy-actions
-    - theme: alt
-      text: Bitwig Actions
-      link: /guide/bitwig-actions
+      text: Changelog
+      link: /guide/changelog
 
 features:
   - icon: 🥁
@@ -28,14 +25,10 @@ features:
     link: /guide/bitwigbuddy/generate-mode
   - icon: ✏️
     title: Edit Mode
-    details: Easily modify velocities and other properties of existing MIDI patterns
+    details: Easily modify velocities of selected notes to add human feel and variation
     link: /guide/bitwigbuddy/edit-mode
   - icon: 🤖
     title: Macro Mode
     details: Automate complex sequences of actions with customizable macros
     link: /guide/bitwigbuddy/macro-mode
-  - icon: 📚
-    title: Complete Reference
-    details: Detailed documentation of all available commands and parameters
-    link: /guide/bitwigbuddy-actions
 ---

@@ -4,10 +4,11 @@ Utility actions provide general-purpose functionality in Bitwig Studio. These ac
 
 ## Utility Actions List
 
-| Action           | Description                          | Example                     |
-|------------------|--------------------------------------|-----------------------------|
-| Wait             | Pauses execution for a specified time | `Wait(1000)`               |
-| Message          | Displays a message box              | `Message("Hello World!")` |
+| Action        | Description                                   | Example                   |
+| ------------- | --------------------------------------------- | ------------------------- |
+| Wait          | Pauses execution for a specified time         | `Wait(1000)`              |
+| Message       | Displays a message box                        | `Message("Hello World!")` |
+| List Commands | Lists all registered commands in the console. | `List Commands`           |
 
 ## Utility Actions Example
 
