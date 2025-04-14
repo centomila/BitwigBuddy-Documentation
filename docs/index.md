@@ -31,4 +31,8 @@ features:
     title: Macro Mode
     details: Automate complex sequences of actions with customizable macros
     link: /guide/bitwigbuddy/macro-mode
+  - icon: 📦
+    title: Included Macros
+    details: Explore pre-built macros to get started quickly and learn the capabilities of BitwigBuddy Macros
+    link: /guide/included-macros/
 ---

@@ -112,6 +112,18 @@ export default defineConfig({
             { text: "State Functions", link: "/guide/bitwigbuddy-actions/state-functions" },
           ],
         },
+        {
+          text: "Included Macros",
+          collapsed: true,
+          items: [
+            { text: "Overview", link: "/guide/included-macros" },
+            { text: "Bitx Macros", link: "/guide/included-macros/bitx" },
+            { text: "Arrangement Macros", link: "/guide/included-macros/arrangement" },
+            { text: "Sample Macros", link: "/guide/included-macros/sample" },
+            { text: "Workflow Utility Macros", link: "/guide/included-macros/workflow" },
+            { text: "Demo Macros", link: "/guide/included-macros/demo" },
+          ],
+        },
       ],
     },
     footer: {
