@@ -1,6 +1,6 @@
 # Bitx Macros
 
-Bitx macros are designed to work with the [BitX Bitwig Extension](https://github.com/wimvandenborre/BitX) created by talented musician [Wim Van den Borre](https://github.com/wimvandenborre) ([YouTube Channel](https://www.youtube.com/@creatingspacesproducer)). These macros create clips with special commands that are interpreted by the BitX extension, providing powerful tools for live performance and studio work.
+Bitx macros are designed to work with the [BitX Bitwig Extension](https://github.com/wimvandenborre/BitX) created by talented musician *Creating Spaces* [GitHub](https://github.com/wimvandenborre) |  ([YouTube Channel](https://www.youtube.com/@creatingspacesproducer)). These macros create clips with special commands that are interpreted by the BitX extension, providing powerful tools for live performance and studio work.
 
 ## What is BitX?
 
@@ -16,19 +16,19 @@ Check out these videos to see BitX in action:
 
 BitwigBuddy includes macros that create clips with BitX commands. Each macro creates a clip with a specific color and naming convention that BitX recognizes:
 
-| Macro Name | Description | Clip Color | Example Usage |
-|------------|-------------|------------|--------------|
-| BitX BPM | Change the project tempo | #FF595E | `()BPM 130` |
-| BitX LDR | Load a drum rack preset | #FF924C | `()LDR Electronic Kit` |
-| BitX LIR | Load an instrument preset | #FFCA3A | `()LIR Synth Lead:3` |
-| BitX OSC | Send an OSC message | #C5CA30 | `()OSC /example/address 1 "string arg" 3.14` |
-| BitX SCF | Set channel filter | #8AC926 | `()SCF 1:3:5` |
-| BitX SMW | Display a setup message | #52A675 | `()SMW Setting up drum sounds` |
-| BitX SNF | Set note filter key range | #1982C4 | `()SNF C2:C5` |
-| BitX SNT | Set note transpose settings | #4267AC | `()SNT 1:20:-10` |
-| BitX SPN | Show a popup notification | #6A4C93 | `()SPN I Love BitX` |
-| BitX STS | Set time signature | #B5A6C9 | `()STS 4:8` |
-| BitX ALL | Create a clip for each command | Various | Creates all command examples |
+| Macro Name | Description                    | Clip Color | Example Usage                                |
+| ---------- | ------------------------------ | ---------- | -------------------------------------------- |
+| BitX BPM   | Change the project tempo       | #FF595E    | `()BPM 130`                                  |
+| BitX LDR   | Load a drum rack preset        | #FF924C    | `()LDR Electronic Kit`                       |
+| BitX LIR   | Load an instrument preset      | #FFCA3A    | `()LIR Synth Lead:3`                         |
+| BitX OSC   | Send an OSC message            | #C5CA30    | `()OSC /example/address 1 "string arg" 3.14` |
+| BitX SCF   | Set channel filter             | #8AC926    | `()SCF 1:3:5`                                |
+| BitX SMW   | Display a setup message        | #52A675    | `()SMW Setting up drum sounds`               |
+| BitX SNF   | Set note filter key range      | #1982C4    | `()SNF C2:C5`                                |
+| BitX SNT   | Set note transpose settings    | #4267AC    | `()SNT 1:20:-10`                             |
+| BitX SPN   | Show a popup notification      | #6A4C93    | `()SPN I Love BitX`                          |
+| BitX STS   | Set time signature             | #B5A6C9    | `()STS 4:8`                                  |
+| BitX ALL   | Create a clip for each command | Various      | Creates all command examples                 |
 
 ## How Bitx Macros Work
 
