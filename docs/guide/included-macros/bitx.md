@@ -1,6 +1,6 @@
 # Bitx Macros
 
-Bitx macros are designed to work with the [BitX Bitwig Extension](https://github.com/wimvandenborre/BitX) created by talented musician *Creating Spaces* [GitHub](https://github.com/wimvandenborre) |  ([YouTube Channel](https://www.youtube.com/@creatingspacesproducer)). These macros create clips with special commands that are interpreted by the BitX extension, providing powerful tools for live performance and studio work.
+Bitx macros are designed to work with the [BitX Bitwig Extension](https://github.com/wimvandenborre/BitX) created by talented musician *Creating Spaces* ( [GitHub](https://github.com/wimvandenborre) |  [YouTube Channel](https://www.youtube.com/@creatingspacesproducer)). These macros create clips with special commands that are interpreted by the BitX extension, providing powerful tools for live performance and studio work.
 
 ## What is BitX?
 
